@@ -1,0 +1,14 @@
+{
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "indent": "off",
+        "linebreak-style": ["warn", "unix"],
+        "quotes": ["warn", "single"],
+        "semi": ["warn", "always"],
+        "no-unexpected-multiline": "off",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn"
+    }
+}
