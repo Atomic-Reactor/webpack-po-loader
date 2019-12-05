@@ -1,5 +1,7 @@
 # Webpack PO Loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Atomic-Reactor/webpack-po-loader.svg)](https://greenkeeper.io/)
+
 This webpack loader facilitates locating Gettext Portable Object (PO) translation files, adding them to your javascript bundle so that it can be used for Javascript translations in the browser. The `.po` or `.pot` module will be a JSON stringified [JED](https://www.npmjs.com/package/jed) format named export `strings`.
 
 This loader works well when used with [gettext-extract](https://www.npmjs.com/package/gettext-extract), which can look for string literals wrapped
