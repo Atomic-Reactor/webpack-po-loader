@@ -1,12 +1,13 @@
 {
   "name": "@atomic-reactor/webpack-po-loader",
-  "version": "0.0.3",
+  "version": "5.0.0",
   "description": "Gettext portable object (PO) translation loader for webpack.",
   "main": "index.js",
   "repository": "https://github.com/Atomic-Reactor/webpack-po-loader",
   "author": "John Dillick <john@reactium.io>",
   "license": "MIT",
   "dependencies": {
-    "po2json": "^1.0.0-alpha"
+    "loader-utils": "^3.2.1",
+    "po2json": "^1.0.0-beta-3"
   }
 }
