@@ -1,8 +1,7 @@
 const po2json = require('po2json');
-const utils = require('loader-utils');
 
 module.exports = function(source) {
-  let options = utils.getOptions(this);
+  let options = this.getOptions();
   if (options === null) {
     options = {
       format: 'jed'
